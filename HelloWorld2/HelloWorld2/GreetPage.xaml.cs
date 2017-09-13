@@ -14,17 +14,8 @@ namespace HelloWorld2
 			InitializeComponent ();
 
             slider.Value = 0.5;
-
-            //Content = new Label
-            //{
-            //    HorizontalOptions = LayoutOptions.Center,
-            //    VerticalOptions = LayoutOptions.Center,
-            //    Text = "Hello World!"
-            //}; code behind option 
+            
 		}
-        void Handle_ValueChanged(object sender, Xamarin.Forms.ValueChangedEventArgs e)
-        {
-            texty.Text = String.Format("Value is {0:F2}", e.NewValue);
-        }
+
     }
 }
