@@ -13,7 +13,7 @@ namespace HelloWorld2
         {
             InitializeComponent();
 
-            MainPage = new HelloWorld2.MainPage();
+            MainPage = new HelloWorld2.GreetPage();
         }
 
         protected override void OnStart()
